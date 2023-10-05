@@ -1,0 +1,16 @@
+input[type="number"] {
+    animation: colorchange 1s infinite;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 1.2em;
+    margin-top: 20px;
+    outline: none;
+    width: 200px;
+}
+
+@keyframes colorchange {
+    0% { color: white; }
+    50% { color: black; }
+    100% { color: white; }
+}
